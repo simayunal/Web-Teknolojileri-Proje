@@ -34,17 +34,16 @@
           
          <main>
             <div class="iletisim" >
-               <form action="git.html" method="POST" onsubmit="tikla()" name="iletisim-form">
-                   <label for="ad"></label>
-                   <input type="text" placeholder="Adınız ve soyadınızı girin" id="ad" required="" autofocus> <br>
-                   <label for="email"></label>
-                   <input type="email" placeholder="E-posta adresinizi girin" id="email" required="" > <br>
-                   <label for="mesaj"></label>
-                   <textarea name="" placeholder="Mesajınızı girin" id="mesaj" ></textarea> <br>
-                   <button id="buton"  class="btn btn-success">Gönder</button> <br><br>
-                   <button type="reset" class="btn btn-success" id="buton" name="buton" value="Reset" onclick="check()">Temizle</button>
-               </form>
-            
+                <form action="git.html" onsubmit="tikla()" name="Form">
+                    <label for="ad"></label>
+                    <input type="text" placeholder="Adınız ve soyadınızı girin" name="isim"  required="" autofocus> <br>
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-posta adresinizi girin" name="mail"  required="" > <br>
+                    <label for="mesaj"></label>
+                    <textarea placeholder="Mesajınızı girin" name="mesaj" id="message" ></textarea> <br>
+                    <button id="buton"  class="btn btn-success">Gönder</button> <br><br>
+                    <button type="reset" class="btn btn-success" id="buton" name="buton" value="Reset" onclick="check()">Temizle</button>
+                </form>
 
               
 
